@@ -277,7 +277,7 @@ const generator: Generator = {
       \\newcommand{\\EducationEntry}[4]{
           \\noindent \\textbf{#1} \\hfill      % Study
           \\colorbox{Black}{
-            \\parbox{8.5em}{
+            \\parbox{9em}{
             \\hfill\\color{White}#2}} \\par  % Duration
           \\noindent \\textit{#3} \\par        % School
           \\noindent\\hangindent=2em\\hangafter=0 \\small #4 % Description
